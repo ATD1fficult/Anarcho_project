@@ -34,10 +34,17 @@ h1 {
     color: rgb(163, 134, 2);
 }
 
-h3 {
-    color: whitesmoke;
+h2{
+    font-size:large;
+    color:red;
+}
+h3 {    
+    color: white;
 }
 
+h4{
+    color: white;
+}
 .button {
     display: inline-flex;
     height: 40px;
@@ -90,5 +97,14 @@ section {
 }
 
 section > div {
-    width: 50%;
+    width: 80%;
+}
+
+#osnovnoe{
+    margin-right: 40%;
+}
+
+#secondary{
+    margin-left:61%;
+
 }
