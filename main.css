@@ -64,11 +64,12 @@ h4{
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    border-radius: 90px 150px 75px 100px;
 }
 
 #button-4 a {
     position: relative;
-    transition: all .45s ease-Out;
+    transition: all .45s ease-out;
     text-decoration: none;
     color: #BFC0C0;
 }
