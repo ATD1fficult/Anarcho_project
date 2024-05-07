@@ -91,7 +91,7 @@ h4{
 }
 
 section {
-    margin: 1%;
+    margin-top: 0.5%;
     display: flex;
     background-color: #333333;
     text-align: start;
@@ -101,11 +101,29 @@ section > div {
     width: 80%;
 }
 
-#osnovnoe{
-    margin-right: 40%;
+.wrapper{
+    display: flex;
+  justify-content:space-between 10px;
+  padding-top: 0.3em;
+  box-sizing: border-box;
 }
 
-#secondary{
-    margin-left:61%;
-
+.wrapper div{
+    width: 70%;
+  background-color: #333333;
 }
+
+.main-conent{
+    margin-top: 0.5%;
+    display: flex;
+    background-color: #333333;
+    margin-right: 0.5%;
+}
+
+.secondary-content{
+    margin-top: 0.5%;
+    display: flex;
+    background-color: #333333;
+    margin-left: 0.5%;
+}
+
